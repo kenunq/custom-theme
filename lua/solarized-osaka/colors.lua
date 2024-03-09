@@ -69,9 +69,9 @@ M.default = {
   green700 = "#FFA200",
   green900 = "#FFA200",
 
-  bg = hsl(15, 100, 6),
-  bg_highlight = hsl(192, 100, 11),
-  fg = hsl(186, 8, 55),
+  bg = "#372E66",
+  bg_highlight = "#B0A8DB",
+  fg = "#B0A8DB",
 }
 
 ---@return ColorScheme
