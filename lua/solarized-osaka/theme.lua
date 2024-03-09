@@ -107,19 +107,19 @@ function M.setup()
     Identifier = { fg = c.blue500, style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = c.blue500, style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.green500 }, -- (preferred) any statement
-    Conditional = { fg = c.green500 }, --  if, then, else, endif, switch, etc.
-    Repeat = { fg = c.green500 }, --   for, do, while, etc.
-    Label = { fg = c.green500 }, --    case, default, etc.
-    Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
+    --Statement = { fg = c.green500 }, -- (preferred) any statement
+    --Conditional = { fg = c.green500 }, --  if, then, else, endif, switch, etc.
+    --Repeat = { fg = c.green500 }, --   for, do, while, etc.
+    --Label = { fg = c.green500 }, --    case, default, etc.
+    --Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.green500, style = options.styles.keywords }, --  any other keyword
-    Exception = { fg = c.green500 }, --  try, catch, throw
+    --Exception = { fg = c.green500 }, --  try, catch, throw
 
     PreProc = { fg = c.red500 }, -- (preferred) generic Preprocessor
-    Include = { fg = c.green500 }, --  preprocessor #include
-    Define = { fg = c.green500 }, --   preprocessor #define
-    Macro = { fg = c.green500 }, --    same as Define
-    PreCondit = { fg = c.green500 }, --  preprocessor #if, #else, #endif, etc.
+    --Include = { fg = c.green500 }, --  preprocessor #include
+    --Define = { fg = c.green500 }, --   preprocessor #define
+    --Macro = { fg = c.green500 }, --    same as Define
+    --PreCondit = { fg = c.green500 }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.yellow500 }, -- (preferred) int, long, char, etc.
     --StorageClass = { fg = c.green500 }, -- static, register, volatile, etc.
