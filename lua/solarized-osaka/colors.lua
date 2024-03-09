@@ -69,7 +69,7 @@ M.default = {
   green700 = hsl(68, 100, 20),
   green900 = hsl(68, 100, 10),
 
-  bg = hsl(192, 100, 5),
+  bg = hsl(192, 192, 192),
   bg_highlight = hsl(192, 100, 11),
   fg = hsl(186, 8, 55),
 }
@@ -93,7 +93,7 @@ function M.setup(opts)
   util.bg = colors.bg
   util.day_brightness = config.options.day_brightness
 
-  colors.black = util.darken(colors.bg, 0.8, "#000000")
+  colors.black = util.darken(colors.bg, 0.8, "#FFFFFF")
   colors.border = colors.black
 
   -- Popups and statusline always get a dark background
