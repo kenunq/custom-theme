@@ -113,24 +113,24 @@ function M.setup()
     Label = { fg = c.green500 }, --    case, default, etc.
     Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.green500, style = options.styles.keywords }, --  any other keyword
-    -- Exception     = { }, --  try, catch, throw
+    Exception = { fg = c.green500 }, --  try, catch, throw
 
     PreProc = { fg = c.red500 }, -- (preferred) generic Preprocessor
-    -- Include       = { }, --  preprocessor #include
-    -- Define        = { }, --   preprocessor #define
-    -- Macro         = { }, --    same as Define
-    -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
+    Include = { fg = c.green500 }, --  preprocessor #include
+    Define = { fg = c.green500 }, --   preprocessor #define
+    Macro = { fg = c.green500 }, --    same as Define
+    PreCondit = { fg = c.green500 }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.yellow500 }, -- (preferred) int, long, char, etc.
-    -- StorageClass  = { }, -- static, register, volatile, etc.
-    -- Structure     = { }, --  struct, union, enum, etc.
-    -- Typedef       = { }, --  A typedef
+    StorageClass = { fg = c.green500 }, -- static, register, volatile, etc.
+    Structure = { fg = c.green500 }, --  struct, union, enum, etc.
+    Typedef = { fg = c.green500 }, --  A typedef
 
     Special = { fg = c.orange500 }, -- (preferred) any special symbol
-    -- SpecialChar   = { }, --  special character in a constant
+    SpecialChar = { fg = c.green500 }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
-    -- SpecialComment= { }, -- special things inside a comment
+    SpecialComment = { fg = c.green500 }, -- special things inside a comment
     Debug = { fg = c.orange500 }, --    debugging statements
 
     Underlined = { underline = true }, -- (preferred) text that stands out, HTML links
@@ -218,7 +218,7 @@ function M.setup()
     ["@number.float"] = { link = "Float" },
     ["@function"] = { link = "Function" },
     ["@function.builtin"] = { link = "Special" },
-    ["@function.call"] = { link = "@function" },
+    ["@f{ fg = c.green500 }{ fg = c.green500 }unction.call"] = { link = "@function" },
     ["@function.macro"] = { link = "Macro" },
     ["@keyword.import"] = { link = "Include" },
     ["@keyword.coroutine"] = { link = "@keyword" },
