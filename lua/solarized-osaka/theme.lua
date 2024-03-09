@@ -122,16 +122,16 @@ function M.setup()
     PreCondit = { fg = c.green500 }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.yellow500 }, -- (preferred) int, long, char, etc.
-    StorageClass = { fg = c.green500 }, -- static, register, volatile, etc.
-    Structure = { fg = c.green500 }, --  struct, union, enum, etc.
-    Typedef = { fg = c.green500 }, --  A typedef
+    --StorageClass = { fg = c.green500 }, -- static, register, volatile, etc.
+    --Structure = { fg = c.green500 }, --  struct, union, enum, etc.
+    --Typedef = { fg = c.green500 }, --  A typedef
 
-    Special = { fg = c.orange500 }, -- (preferred) any special symbol
-    SpecialChar = { fg = c.green500 }, --  special character in a constant
+    --Special = { fg = c.orange500 }, -- (preferred) any special symbol
+    --SpecialChar = { fg = c.green500 }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
-    SpecialComment = { fg = c.green500 }, -- special things inside a comment
-    Debug = { fg = c.orange500 }, --    debugging statements
+    --SpecialComment = { fg = c.green500 }, -- special things inside a comment
+    --Debug = { fg = c.orange500 }, --    debugging statements
 
     Underlined = { underline = true }, -- (preferred) text that stands out, HTML links
     Bold = { bold = true },
@@ -150,7 +150,7 @@ function M.setup()
     htmlH2 = { fg = c.blue500, bold = true },
 
     -- mkdHeading = { fg = c.orange, bold = true },
-    mkdCode = { bg = c.green900 },
+    --mkdCode = { bg = c.green900 },
     mkdCodeDelimiter = { fg = c.base0, bg = c.green700 },
     mkdCodeStart = { fg = c.orange500, bold = true },
     mkdCodeEnd = { fg = c.orange500, bold = true },
