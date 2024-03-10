@@ -97,8 +97,8 @@ function M.setup()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.cyan500 }, -- (preferred) any constant
-    String = { fg = c.cyan500 }, --   a string constant: "this is a string"
+    Constant = { fg = c.cyan100 }, -- (preferred) any constant
+    String = { fg = c.green500 }, --   a string constant: "this is a string"
     Character = { link = "Constant" }, --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
