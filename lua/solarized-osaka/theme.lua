@@ -140,7 +140,7 @@ function M.setup()
     -- ("Ignore", below, may be invisible...)
     -- Ignore = { }, -- (preferred) left blank, hidden  |hl-Ignore|
 
-    Error = { fg = c.red500 }, -- (preferred) any erroneous construct
+    Error = { fg = "#82AAFF" }, -- (preferred) any erroneous construct
     Todo = { fg = c.magenta500, bold = true }, -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
     qfLineNr = { fg = c.base0 },
