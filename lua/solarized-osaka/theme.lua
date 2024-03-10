@@ -293,7 +293,7 @@ function M.setup()
 
     --- Types
     ["@type.builtin"] = { link = "Type" },
-    ["@variable.member"] = { fg = "#EEFFFF" }, -- For fields. ЦВЕТ ПЕРЕМЕННЫХ
+    ["@variable.member"] = { fg = c.cyan500 }, -- For fields. ЦВЕТ ПЕРЕМЕННЫХ "#EEFFFF"
     ["@property"] = { link = "Identifier" },
 
     --- Identifiers
