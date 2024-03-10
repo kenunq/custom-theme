@@ -256,7 +256,7 @@ function M.setup()
     ["@comment.hint"] = { fg = c.hint },
     ["@comment.info"] = { fg = c.info },
     ["@comment.warning"] = { fg = c.warning },
-    ["@comment.todo"] = { fg = c.todo },
+    ["@comment.todo"] = { fg = "#FF00BB"},
     ["@markup.link.url"] = { link = "Underlined" },
     ["@type"] = { link = "Type" },
     ["@type.definition"] = { link = "Typedef" },
