@@ -283,8 +283,8 @@ function M.setup()
     ["@variable.parameter.builtin"] = { fg = "#F78C6C" }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
 
     --- Keywords
-    ["@keyword"] = { fg = "#82AAFF", style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
-    ["@keyword.function"] = { fg = "#82AAFF", style = options.styles.functions }, -- For keywords used to define a fuction.
+    ["@keyword"] = { fg = "#C792EA", style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
+    ["@keyword.function"] = { fg = "#C792EA", style = options.styles.functions }, -- For keywords used to define a fuction.
 
     ["@label"] = { fg = c.green500 }, -- For labels: `label:` in C and `:label:` in Lua.
 
