@@ -25,8 +25,8 @@ function M.setup()
   local c = theme.colors
 
   theme.highlights = {
-    Comment = { fg = c.green, style = options.styles.comments }, -- any comment
-    ColorColumn = { bg = c.base02 }, -- used for the columns set with 'colorcolumn'
+    Comment = { fg = c.yellow, style = options.styles.comments }, -- any comment
+    ColorColumn = { bg = c.yellow }, -- used for the columns set with 'colorcolumn'
     Conceal = { fg = c.blue500 }, -- placeholder characters substituted for concealed text (see 'conceallevel')
     Cursor = { fg = c.base03, bg = c.base0 }, -- character under the cursor
     lCursor = { fg = c.base03, bg = c.base00 }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
