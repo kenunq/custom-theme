@@ -115,7 +115,7 @@ function M.setup()
     Keyword = { fg = "#89DDFF", style = options.styles.keywords }, --  any other keyword
     Exception     = { fg = "#C792EA" }, --  try, catch, throw
 
-    PreProc = { fg = c.red500 }, -- (preferred) generic Preprocessor
+    PreProc = { fg = "#82AAFF" }, -- (preferred) generic Preprocessor
     -- Include       = { }, --  preprocessor #include
     -- Define        = { }, --   preprocessor #define
     -- Macro         = { }, --    same as Define
@@ -126,7 +126,7 @@ function M.setup()
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
 
-    Special = { fg = c.orange500 }, -- (preferred) any special symbol
+    Special = { fg = "#82AAFF" }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
