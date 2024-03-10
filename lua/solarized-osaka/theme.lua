@@ -107,31 +107,31 @@ function M.setup()
     Identifier = { fg = c.blue500, style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = c.blue500, style = options.styles.functions }, -- function name (also: methods for classes)
 
-    --Statement = { fg = c.green500 }, -- (preferred) any statement
-    --Conditional = { fg = c.green500 }, --  if, then, else, endif, switch, etc.
-    --Repeat = { fg = c.green500 }, --   for, do, while, etc.
-    --Label = { fg = c.green500 }, --    case, default, etc.
-    --Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
+    Statement = { fg = c.green500 }, -- (preferred) any statement
+    -- Conditional   = { }, --  if, then, else, endif, switch, etc.
+    -- Repeat        = { }, --   for, do, while, etc.
+    -- Label         = { }, --    case, default, etc.
+    Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.green500, style = options.styles.keywords }, --  any other keyword
-    --Exception = { fg = c.green500 }, --  try, catch, throw
+    -- Exception     = { }, --  try, catch, throw
 
     PreProc = { fg = c.red500 }, -- (preferred) generic Preprocessor
-    --Include = { fg = c.green500 }, --  preprocessor #include
-    --Define = { fg = c.green500 }, --   preprocessor #define
-    --Macro = { fg = c.green500 }, --    same as Define
-    --PreCondit = { fg = c.green500 }, --  preprocessor #if, #else, #endif, etc.
+    -- Include       = { }, --  preprocessor #include
+    -- Define        = { }, --   preprocessor #define
+    -- Macro         = { }, --    same as Define
+    -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.yellow500 }, -- (preferred) int, long, char, etc.
-    --StorageClass = { fg = c.green500 }, -- static, register, volatile, etc.
-    --Structure = { fg = c.green500 }, --  struct, union, enum, etc.
-    --Typedef = { fg = c.green500 }, --  A typedef
+    -- StorageClass  = { }, -- static, register, volatile, etc.
+    -- Structure     = { }, --  struct, union, enum, etc.
+    -- Typedef       = { }, --  A typedef
 
-    --Special = { fg = c.orange500 }, -- (preferred) any special symbol
-    --SpecialChar = { fg = c.green500 }, --  special character in a constant
+    Special = { fg = c.orange500 }, -- (preferred) any special symbol
+    -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
-    --SpecialComment = { fg = c.green500 }, -- special things inside a comment
-    --Debug = { fg = c.orange500 }, --    debugging statements
+    -- SpecialComment= { }, -- special things inside a comment
+    Debug = { fg = c.orange500 }, --    debugging statements
 
     Underlined = { underline = true }, -- (preferred) text that stands out, HTML links
     Bold = { bold = true },
@@ -150,7 +150,7 @@ function M.setup()
     htmlH2 = { fg = c.blue500, bold = true },
 
     -- mkdHeading = { fg = c.orange, bold = true },
-    --mkdCode = { bg = c.green900 },
+    mkdCode = { bg = c.green900 },
     mkdCodeDelimiter = { fg = c.base0, bg = c.green700 },
     mkdCodeStart = { fg = c.orange500, bold = true },
     mkdCodeEnd = { fg = c.orange500, bold = true },
@@ -218,7 +218,7 @@ function M.setup()
     ["@number.float"] = { link = "Float" },
     ["@function"] = { link = "Function" },
     ["@function.builtin"] = { link = "Special" },
-    ["@f{ fg = c.green500 }{ fg = c.green500 }unction.call"] = { link = "@function" },
+    ["@function.call"] = { link = "@function" },
     ["@function.macro"] = { link = "Macro" },
     ["@keyword.import"] = { link = "Include" },
     ["@keyword.coroutine"] = { link = "@keyword" },
