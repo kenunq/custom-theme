@@ -297,7 +297,7 @@ function M.setup()
     ["@property"] = { link = "Identifier" },
 
     --- Identifiers
-    ["@variable"] = { fg = "#F78C6C", style = options.styles.variables }, -- Any variable name that does not have another highlight.
+    ["@variable"] = { fg = "#EEFFFF", style = options.styles.variables }, -- Any variable name that does not have another highlight. Переменные внутри функции
     ["@variable.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@module.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
 
