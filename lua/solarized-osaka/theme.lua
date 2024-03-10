@@ -97,15 +97,15 @@ function M.setup()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.cyan300 }, -- (preferred) any constant
+    Constant = { fg = "#EEFFFF" }, -- (preferred) any constant
     String = { fg = "#C3E88D" }, --   a string constant: "this is a string"
     Character = { link = "Constant" }, --  a character constant: 'c', '\n'
     Number        = { fg = "#F78C6C" }, --   a number constant: 234, 0xff
     Boolean       = { fg = "#C792EA" }, --  a boolean constant: TRUE, false
     Float         = { fg = "#F78C6C" }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.blue500, style = options.styles.variables }, -- (preferred) any variable name
-    Function = { fg = c.blue500, style = options.styles.functions }, -- function name (also: methods for classes)
+    Identifier = { fg = "#EEFFFF", style = options.styles.variables }, -- (preferred) any variable name
+    Function = { fg = "#82AAFF", style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.green500 }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
