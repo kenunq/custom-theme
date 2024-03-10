@@ -10,13 +10,13 @@ M.default = {
 
   base04 = "#00141A", -- Задний фон у Neotree и подобных меню
   base03 = "#002B36", -- Фон у выделительной полосы на которой стоит курсор
-  base02 = "#073642",
-  base01 = "#586E75",
-  base00 = "#FFFFFF",
+  base02 = "#FFFFFF",
+  base01 = "#FFFFFF",
+  base00 = "#657B83",
   -- base0 = hsl( 186, 8, 55 ),
-  base0 = "#9EACAD",
+  base0 = "#FFFFFF",
   -- base1 = hsl( 180, 7, 60 ),
-  base1 = "#ADB8B8",
+  base1 = "#FFFFFF",
   base2 = "#EEE8D5",
   base3 = "#FDF6E3",
   base4 = "#FFFFFF",
@@ -59,9 +59,9 @@ M.default = {
   cyan = "#2A6661",
   cyan100 = "#B9FFFA",
   cyan300 = "#29EEDF",
-  cyan500 = "#2AA198",
-  cyan700 = "#1A6265",
-  cyan900 = "#103B3D",
+  cyan500 = "#FFFFFF",
+  cyan700 = "#FFFFFF",
+  cyan900 = "#FFFFFF",
   green = "#00730C",
   green100 = "#D6FFAC",
   green300 = "#BAFB00",
@@ -71,7 +71,7 @@ M.default = {
 
   bg = "#000A0D",
   bg_highlight = "#00161C",
-  fg = "#828B8D",
+  fg = "#FFFFFF",
 }
 
 ---@return ColorScheme
