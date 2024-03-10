@@ -8,8 +8,8 @@ local M = {}
 M.default = {
   none = "NONE",
 
-  base04 = "#FF00D5",
-  base03 = "#FF0000",
+  base04 = "#FF00D5", -- Задний фон у Neotree
+  base03 = hsl(192, 100, 11), -- Фон у выделительной полосы на которой стоит курсор
   base02 = "#8E8E8E",
   base01 = "#043700",
   base00 = "#F39A9A",
