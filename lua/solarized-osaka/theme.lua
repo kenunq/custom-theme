@@ -108,9 +108,9 @@ function M.setup()
     Function = { fg = "#82AAFF", style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.green500 }, -- (preferred) any statement
-    -- Conditional   = { }, --  if, then, else, endif, switch, etc.
-    -- Repeat        = { }, --   for, do, while, etc.
-    -- Label         = { }, --    case, default, etc.
+    Conditional   = { fg = "#C792EA" }, --  if, then, else, endif, switch, etc.
+    Repeat        = { fg = "#C792EA" }, --   for, do, while, etc.
+    Label         = { fg = "#C792EA" }, --    case, default, etc.
     Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.green500, style = options.styles.keywords }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
