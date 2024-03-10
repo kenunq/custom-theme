@@ -69,9 +69,9 @@ M.default = {
   green700 = "#596600",
   green900 = "#2C3300",
 
-  bg = "#372E66",
-  bg_highlight = "#B0A8DB",
-  fg = "#B0A8DB",
+  bg = "#000A0D",
+  bg_highlight = "#00161C",
+  fg = "#838D8D",
 }
 
 ---@return ColorScheme
@@ -98,7 +98,7 @@ function M.setup(opts)
 
   -- Popups and statusline always get a dark background
   colors.bg_popup = colors.base04
-  colors.bg_statusline = "#BA528A"
+  colors.bg_statusline = colors.base03
 
   -- Sidebar and Floats are configurable
   colors.bg_sidebar = config.options.styles.sidebars == "transparent" and colors.none
