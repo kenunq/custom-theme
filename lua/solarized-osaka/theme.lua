@@ -265,9 +265,9 @@ function M.setup()
     ["@operator"] = { fg = "#89DDFF" }, -- For any operator: `+`, but also `->` and `*` in C.
 
     --- Punctuation
-    ["@punctuation.delimiter"] = { fg = "#89DDFF" }, -- For delimiters ie: `.`
-    ["@punctuation.bracket"] = { fg = "#89DDFF" }, -- For brackets and parens.
-    ["@punctuation.special"] = { fg = c.orange500 }, -- For special punctutation that does not fall in the catagories before.
+    ["@punctuation.delimiter"] = { fg = "#89DDFF" }, -- For delimiters ie: `.` запятые
+    ["@punctuation.bracket"] = { fg = "#89DDFF" }, -- For brackets and parens. скобки
+    ["@punctuation.special"] = { fg = "#89DDFF" }, -- For special punctutation that does not fall in the catagories before.
     ["@punctuation.special.markdown"] = { fg = c.orange500, bold = true },
     ["@markup.list"] = { fg = c.blue500 }, -- For special punctutation that does not fall in the catagories before.
     ["@markup.list.markdown"] = { fg = c.orange500, bold = true },
@@ -279,8 +279,8 @@ function M.setup()
 
     --- Functions
     ["@constructor"] = { fg = c.orange500 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
-    ["@variable.parameter"] = { fg = c.orange500 }, -- For parameters of a function.
-    ["@variable.parameter.builtin"] = { fg = c.yellow300 }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
+    ["@variable.parameter"] = { fg = "#F78C6C" }, -- For parameters of a function.
+    ["@variable.parameter.builtin"] = { fg = "#F78C6C" }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
 
     --- Keywords
     ["@keyword"] = { fg = c.green500, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
