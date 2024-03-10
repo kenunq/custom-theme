@@ -104,7 +104,7 @@ function M.setup()
     Boolean       = { fg = "#C792EA" }, --  a boolean constant: TRUE, false
     Float         = { fg = "#F78C6C" }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = "#EEFFFF" }, -- (preferred) any variable name
+    Identifier = { fg = "#EEFFFF", style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = "#82AAFF", style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.green500 }, -- (preferred) any statement
@@ -297,7 +297,7 @@ function M.setup()
     ["@property"] = { link = "Identifier" },
 
     --- Identifiers
-    ["@variable"] = { fg = "#EEFFFF" }, -- Any variable name that does not have another highlight.
+    ["@variable"] = { fg = "#EEFFFF", style = options.styles.variables }, -- Any variable name that does not have another highlight.
     ["@variable.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@module.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
 
@@ -344,7 +344,7 @@ function M.setup()
     ["@lsp.type.string"] = { link = "@string" },
     ["@lsp.type.typeAlias"] = { link = "@type.definition" },
     ["@lsp.type.unresolvedReference"] = { undercurl = true, sp = c.error },
-    ["@lsp.type.variable"] = {}, -- use treesitter styles for regular variables
+    ["@lsp.type.variable"] = { fg = "#EEFFFF" }, -- use treesitter styles for regular variables
     ["@lsp.typemod.class.defaultLibrary"] = { link = "@type.builtin" },
     ["@lsp.typemod.enum.defaultLibrary"] = { link = "@type.builtin" },
     ["@lsp.typemod.enumMember.defaultLibrary"] = { link = "@constant.builtin" },
