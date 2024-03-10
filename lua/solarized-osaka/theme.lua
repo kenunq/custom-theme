@@ -121,7 +121,7 @@ function M.setup()
     -- Macro         = { }, --    same as Define
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type = { fg = c.yellow500 }, -- (preferred) int, long, char, etc.
+    Type = { fg = "#FFCB6B" }, -- (preferred) int, long, char, etc.
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
@@ -262,7 +262,7 @@ function M.setup()
     --- Misc
     -- TODO:
     -- ["@comment.documentation"] = { },
-    ["@operator"] = { fg = c.green500 }, -- For any operator: `+`, but also `->` and `*` in C.
+    ["@operator"] = { fg = "#89DDFF" }, -- For any operator: `+`, but also `->` and `*` in C.
 
     --- Punctuation
     ["@punctuation.delimiter"] = { fg = c.green500 }, -- For delimiters ie: `.`
