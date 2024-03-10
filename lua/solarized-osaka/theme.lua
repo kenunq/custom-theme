@@ -107,7 +107,7 @@ function M.setup()
     Identifier = { fg = "#EEFFFF", style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = "#82AAFF", style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.green500 }, -- (preferred) any statement
+    Statement = { fg = "#EEFFFF" }, -- (preferred) any statement
     Conditional   = { fg = "#C792EA" }, --  if, then, else, endif, switch, etc.
     Repeat        = { fg = "#C792EA" }, --   for, do, while, etc.
     Label         = { fg = "#C792EA" }, --    case, default, etc.
@@ -238,8 +238,8 @@ function M.setup()
     ["@markup.link.label"] = { link = "SpecialChar" },
     ["@markup.link.label.symbol"] = { link = "Identifier" },
     ["@tag"] = { link = "Label" },
-    --["@tag.attribute"] = { link = "@property" },
-    ["@tag.attribute"] = { fg = "#EEFFFF" },
+    ["@tag.attribute"] = { link = "@property" },
+    --["@tag.attribute"] = { fg = "#EEFFFF" },
     ["@tag.delimiter"] = { link = "Delimiter" },
     ["@markup"] = { link = "@none" },
     ["@markup.environment"] = { link = "Macro" },
