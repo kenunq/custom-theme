@@ -100,7 +100,7 @@ function M.setup()
     Constant = { fg = c.cyan300 }, -- (preferred) any constant
     String = { fg = "#C3E88D" }, --   a string constant: "this is a string"
     Character = { link = "Constant" }, --  a character constant: 'c', '\n'
-    -- Number        = { }, --   a number constant: 234, 0xff
+    Number        = { fg = "#F78C6C" }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
