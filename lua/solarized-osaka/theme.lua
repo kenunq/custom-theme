@@ -104,10 +104,10 @@ function M.setup()
     Boolean       = { fg = "#C792EA" }, --  a boolean constant: TRUE, false
     Float         = { fg = "#F78C6C" }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = "#EEFFFF", style = options.styles.variables }, -- (preferred) any variable name
+    Identifier = { fg = "#EEFFFF" }, -- (preferred) any variable name
     Function = { fg = "#82AAFF", style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = "#EEFFFF" }, -- (preferred) any statement
+    Statement = { fg = c.green500 }, -- (preferred) any statement
     Conditional   = { fg = "#C792EA" }, --  if, then, else, endif, switch, etc.
     Repeat        = { fg = "#C792EA" }, --   for, do, while, etc.
     Label         = { fg = "#C792EA" }, --    case, default, etc.
