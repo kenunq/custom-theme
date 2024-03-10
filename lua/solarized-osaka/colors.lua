@@ -72,6 +72,7 @@ M.default = {
   bg = "#000A0D",
   bg_highlight = "#00161C",
   fg = "#828B8D",
+  todo= "#FF00BB",
 }
 
 ---@return ColorScheme
