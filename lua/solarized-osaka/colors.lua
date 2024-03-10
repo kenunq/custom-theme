@@ -10,13 +10,13 @@ M.default = {
 
   base04 = "#00141A", -- Задний фон у Neotree и подобных меню
   base03 = "#002B36", -- Фон у выделительной полосы на которой стоит курсор
-  base02 = "#FFFFFF",
-  base01 = "#FFFFFF",
+  base02 = "#073642",
+  base01 = "#586E75",
   base00 = "#657B83",
   -- base0 = hsl( 186, 8, 55 ),
-  base0 = "#FFFFFF",
+  base0 = "#9EACAD",
   -- base1 = hsl( 180, 7, 60 ),
-  base1 = "#FFFFFF",
+  base1 = "#ADB8B8",
   base2 = "#EEE8D5",
   base3 = "#FDF6E3",
   base4 = "#FFFFFF",
