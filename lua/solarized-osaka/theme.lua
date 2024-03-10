@@ -293,11 +293,11 @@ function M.setup()
 
     --- Types
     ["@type.builtin"] = { link = "Type" },
-    ["@variable.member"] = { fg = c.cyan500 }, -- For fields. ЦВЕТ ПЕРЕМЕННЫХ "#EEFFFF"
+    ["@variable.member"] = { fg = "#EEFFFF" }, -- For fields. ЦВЕТ ПЕРЕМЕННЫХ 
     ["@property"] = { link = "Identifier" },
 
     --- Identifiers
-    ["@variable"] = { fg = "#EEFFFF", style = options.styles.variables }, -- Any variable name that does not have another highlight.
+    ["@variable"] = { fg = "#F78C6C", style = options.styles.variables }, -- Any variable name that does not have another highlight.
     ["@variable.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@module.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
 
