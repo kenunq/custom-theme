@@ -101,8 +101,8 @@ function M.setup()
     String = { fg = "#C3E88D" }, --   a string constant: "this is a string"
     Character = { link = "Constant" }, --  a character constant: 'c', '\n'
     Number        = { fg = "#F78C6C" }, --   a number constant: 234, 0xff
-    -- Boolean       = { }, --  a boolean constant: TRUE, false
-    -- Float         = { }, --    a floating point constant: 2.3e10
+    Boolean       = { fg = "#C792EA" }, --  a boolean constant: TRUE, false
+    Float         = { fg = "Number" }, --    a floating point constant: 2.3e10
 
     Identifier = { fg = c.blue500, style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = c.blue500, style = options.styles.functions }, -- function name (also: methods for classes)
