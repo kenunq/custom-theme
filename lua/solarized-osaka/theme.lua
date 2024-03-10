@@ -111,9 +111,9 @@ function M.setup()
     Conditional   = { fg = "#C792EA" }, --  if, then, else, endif, switch, etc.
     Repeat        = { fg = "#C792EA" }, --   for, do, while, etc.
     Label         = { fg = "#C792EA" }, --    case, default, etc.
-    Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
-    Keyword = { fg = c.green500, style = options.styles.keywords }, --  any other keyword
-    -- Exception     = { }, --  try, catch, throw
+    Operator = { fg = "#89DDFF" }, -- "sizeof", "+", "*", etc.
+    Keyword = { fg = "#89DDFF", style = options.styles.keywords }, --  any other keyword
+    Exception     = { fg = "#C792EA" }, --  try, catch, throw
 
     PreProc = { fg = c.red500 }, -- (preferred) generic Preprocessor
     -- Include       = { }, --  preprocessor #include
