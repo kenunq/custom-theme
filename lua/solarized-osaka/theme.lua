@@ -104,7 +104,7 @@ function M.setup()
     Boolean       = { fg = "#C792EA" }, --  a boolean constant: TRUE, false
     Float         = { fg = "#F78C6C" }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = "#EEFFFF" }, -- (preferred) any variable name
+    Identifier = { fg = "#EEFFFF", style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = "#82AAFF", style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.green500 }, -- (preferred) any statement
@@ -127,7 +127,7 @@ function M.setup()
     -- Typedef       = { }, --  A typedef
 
     Special = { fg = "#82AAFF" }, -- (preferred) any special symbol
-    -- SpecialChar   = { }, --  special character in a constant
+    SpecialChar   = { fg = "#EEFFFF" }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
     -- SpecialComment= { }, -- special things inside a comment
