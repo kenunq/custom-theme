@@ -127,7 +127,7 @@ function M.setup()
     -- Typedef       = { }, --  A typedef
 
     Special = { fg = "#82AAFF" }, -- (preferred) any special symbol
-    SpecialChar   = { fg = "#EEFFFF" }, --  special character in a constant
+    -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
     -- SpecialComment= { }, -- special things inside a comment
@@ -297,7 +297,7 @@ function M.setup()
     ["@property"] = { link = "Identifier" },
 
     --- Identifiers
-    ["@variable"] = { fg = "#EEFFFF", style = options.styles.variables }, -- Any variable name that does not have another highlight.
+    ["@variable"] = { fg = "#EEFFFF" }, -- Any variable name that does not have another highlight.
     ["@variable.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@module.builtin"] = { fg = "#FF5370" }, -- Variable names that are defined by the languages, like `this` or `self`.
 
