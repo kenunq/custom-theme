@@ -266,7 +266,7 @@ function M.setup()
 
     --- Punctuation
     ["@punctuation.delimiter"] = { fg = c.green500 }, -- For delimiters ie: `.`
-    ["@punctuation.bracket"] = { fg = c.orange500 }, -- For brackets and parens.
+    ["@punctuation.bracket"] = { fg = "#89DDFF" }, -- For brackets and parens.
     ["@punctuation.special"] = { fg = c.orange500 }, -- For special punctutation that does not fall in the catagories before.
     ["@punctuation.special.markdown"] = { fg = c.orange500, bold = true },
     ["@markup.list"] = { fg = c.blue500 }, -- For special punctutation that does not fall in the catagories before.
