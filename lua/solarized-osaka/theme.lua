@@ -203,7 +203,7 @@ function M.setup()
 
     -- These groups are for the Neovim tree-sitter highlights.
     ["@annotation"] = { link = "PreProc" },
-    ["@attribute"] = { link = "PreProc" , italic = true},
+    ["@attribute"] = { link = "PreProc" },
     ["@boolean"] = { link = "Boolean" },
     ["@character"] = { link = "Character" },
     ["@character.special"] = { link = "SpecialChar" },
